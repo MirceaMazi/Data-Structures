@@ -1,0 +1,3 @@
+﻿  Lista_dubla.c
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\Lista_Dubla\Lista_Dubla\Lista_Dubla\Lista_dubla.c(11,2): warning C4091: 'typedef ': ignored on left of 'node' when no variable is declared
+  Lista_Dubla.vcxproj -> E:\Facultate\Anul II\SEM II\SDD\Recapitulare\Lista_Dubla\Lista_Dubla\x64\Debug\Lista_Dubla.exe
