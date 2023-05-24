@@ -1,0 +1,6 @@
+﻿  HashMap.c
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashMap\HashMap\Hashtable.h(6,2): warning C4091: 'typedef ': ignored on left of 'Item' when no variable is declared
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashMap\HashMap\Hashtable.h(12,2): warning C4091: 'typedef ': ignored on left of 'Hashtable' when no variable is declared
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashMap\HashMap\HashMap.c(42,29): warning C4133: 'function': incompatible types - from 'Item *' to 'Hashtable *'
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashMap\HashMap\HashMap.c(36): warning C4716: 'newHashtable': must return a value
+  HashMap.vcxproj -> E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashMap\x64\Debug\HashMap.exe
