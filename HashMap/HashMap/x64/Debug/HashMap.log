@@ -1,0 +1,18 @@
+﻿  HashMap.c
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashMap\HashMap\Hashtable.h(6,2): warning C4091: 'typedef ': ignored on left of 'Item' when no variable is declared
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashMap\HashMap\Hashtable.h(12,2): warning C4091: 'typedef ': ignored on left of 'Hashtable' when no variable is declared
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashMap\HashMap\HashMap.c(67,27): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashMap\HashMap\HashMap.c(149,48): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashMap\HashMap\HashMap.c(191,19): warning C4477: 'scanf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'char **'
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashMap\HashMap\HashMap.c(193,19): warning C4477: 'scanf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'char **'
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashMap\HashMap\HashMap.c(194,32): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char *[100]'
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashMap\HashMap\HashMap.c(194,29): warning C4024: 'insertItem': different types for formal and actual parameter 2
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashMap\HashMap\HashMap.c(194,39): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char *[100]'
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashMap\HashMap\HashMap.c(194,34): warning C4024: 'insertItem': different types for formal and actual parameter 3
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashMap\HashMap\HashMap.c(200,19): warning C4477: 'scanf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'char **'
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashMap\HashMap\HashMap.c(201,41): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char *[100]'
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashMap\HashMap\HashMap.c(201,38): warning C4024: 'deleteHashtableItem': different types for formal and actual parameter 2
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashMap\HashMap\HashMap.c(207,19): warning C4477: 'scanf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'char **'
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashMap\HashMap\HashMap.c(208,44): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char *[100]'
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashMap\HashMap\HashMap.c(208,41): warning C4024: 'searchHashtable': different types for formal and actual parameter 2
+  HashMap.vcxproj -> E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashMap\x64\Debug\HashMap.exe
