@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.35.32215:TargetPlatformVersion=10.0.22000.0:
 Debug|x64|E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashMap\|
+=======
+PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.35.32215:TargetPlatformVersion=10.0.22000.0:
+Debug|x64|E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashMap\|
+>>>>>>> 73b1af65c80b4b8ad8f0b536e9fa91f584fc2095
