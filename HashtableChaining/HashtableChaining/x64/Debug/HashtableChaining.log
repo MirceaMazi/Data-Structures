@@ -1,0 +1,5 @@
+﻿  HashtableChaining.c
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashtableChaining\HashtableChaining\HashtableChaining.c(31,41): warning C4013: 'strlen' undefined; assuming extern returning int
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashtableChaining\HashtableChaining\HashtableChaining.c(32,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashtableChaining\HashtableChaining\HashtableChaining.c(39): warning C4716: 'printBiblioteca': must return a value
+  HashtableChaining.vcxproj -> E:\Facultate\Anul II\SEM II\SDD\Recapitulare\HashtableChaining\x64\Debug\HashtableChaining.exe

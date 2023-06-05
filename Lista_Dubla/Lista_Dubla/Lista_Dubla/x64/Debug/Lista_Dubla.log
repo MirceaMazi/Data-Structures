@@ -1,3 +1,8 @@
 ﻿  Lista_dubla.c
 E:\Facultate\Anul II\SEM II\SDD\Recapitulare\Lista_Dubla\Lista_Dubla\Lista_Dubla\Lista_dubla.c(11,2): warning C4091: 'typedef ': ignored on left of 'node' when no variable is declared
-  Lista_Dubla.vcxproj -> E:\Facultate\Anul II\SEM II\SDD\Recapitulare\Lista_Dubla\Lista_Dubla\x64\Debug\Lista_Dubla.exe
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\Lista_Dubla\Lista_Dubla\Lista_Dubla\Lista_dubla.c(16,2): warning C4013: 'printf' undefined; assuming extern returning int
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\Lista_Dubla\Lista_Dubla\Lista_Dubla\Lista_dubla.c(233,3): warning C4013: 'scanf' undefined; assuming extern returning int
+  LINK : E:\Facultate\Anul II\SEM II\SDD\Recapitulare\Lista_Dubla\Lista_Dubla\x64\Debug\Lista_Dubla.exe not found or not built by the last incremental link; performing full link
+Lista_dubla.obj : error LNK2019: unresolved external symbol printf referenced in function deleteList
+Lista_dubla.obj : error LNK2019: unresolved external symbol scanf referenced in function main
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\Lista_Dubla\Lista_Dubla\x64\Debug\Lista_Dubla.exe : fatal error LNK1120: 2 unresolved externals
