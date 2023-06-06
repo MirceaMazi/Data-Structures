@@ -110,6 +110,34 @@ int calculInaltime(struct Nod* root) {
     }
 }
 
+int numarulNoduri(struct Nod* root, int* nrNoduri) {
+    if (root == NULL) {
+        return 0;
+    }
+    else {
+        int nrNoduriStanga = numarulNoduri(root->stanga, nrNoduri);
+        int nrNoduriDreapta = numarulNoduri(root->dreapta, nrNoduri);
+        (*nrNoduri)++;
+    }
+    return nrNoduri;
+}
+
+void populateVector(struct Nod* root, struct Cofetarie** vector, int* nrElemente) {
+    if (root != NULL) {
+        (*vector)[*nrElemente] = root->info;
+        (*nrElemente)++;
+        populateVector(root->stanga, vector, nrElemente);
+        populateVector(root->dreapta, vector, nrElemente);
+    }
+}
+
+void convertToVector(struct Nod* root, struct Cofetarie** vector, int* nrElemente) {
+    numarulNoduri(root, nrElemente);
+    *vector = malloc(sizeof(struct Cofetarie) * (*nrElemente));
+    int index = 0;
+    populateVector(root, vector, &index);
+}
+
 int main()
 {
     struct Cofetarie* c = initializareCofetarie(1, "Cofetaria 1");
@@ -135,6 +163,17 @@ int main()
     printf("\nInaltimea este %d ", inaltime);
     
     afisarePreordine(root);
+    int nrNoduri = 0;
+    struct Cofetarie* vector;
+    convertToVector(root, &vector, &nrNoduri);
+
+    for (int i = 0; i < nrNoduri; i++) {
+        printf("\n");
+        afisareCofetarie(vector[i]);
+        printf("\n");
+    }
+    printf("\n\n Numarul de noduri este: %d", nrNoduri);
+
     dezalocareArbore(&root);
 }
 

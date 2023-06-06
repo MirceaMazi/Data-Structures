@@ -2,4 +2,5 @@
 E:\Facultate\Anul II\SEM II\SDD\Recapitulare\Arbore_Cautare\Arbore_Cautare\Arbore_Cautare.c(20,38): warning C4013: 'strlen' undefined; assuming extern returning int
 E:\Facultate\Anul II\SEM II\SDD\Recapitulare\Arbore_Cautare\Arbore_Cautare\Arbore_Cautare.c(21,5): warning C4013: 'strcpy' undefined; assuming extern returning int
 E:\Facultate\Anul II\SEM II\SDD\Recapitulare\Arbore_Cautare\Arbore_Cautare\Arbore_Cautare.c(92,42): warning C4047: '=': 'Cofetarie **' differs in levels of indirection from 'Cofetarie *'
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\Arbore_Cautare\Arbore_Cautare\Arbore_Cautare.c(122,20): warning C4047: 'return': 'int' differs in levels of indirection from 'int *'
   Arbore_Cautare.vcxproj -> E:\Facultate\Anul II\SEM II\SDD\Recapitulare\Arbore_Cautare\x64\Debug\Arbore_Cautare.exe

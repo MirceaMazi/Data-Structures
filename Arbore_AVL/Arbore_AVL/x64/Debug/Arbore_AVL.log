@@ -1,0 +1,6 @@
+﻿  Arbore_AVL.c
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\Arbore_AVL\Arbore_AVL\Arbore_AVL.c(20,38): warning C4013: 'strlen' undefined; assuming extern returning int
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\Arbore_AVL\Arbore_AVL\Arbore_AVL.c(21,5): warning C4013: 'strcpy' undefined; assuming extern returning int
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\Arbore_AVL\Arbore_AVL\Arbore_AVL.c(147,25): warning C4553: '==': result of expression not used; did you intend '='?
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\Arbore_AVL\Arbore_AVL\Arbore_AVL.c(148,26): warning C4553: '==': result of expression not used; did you intend '='?
+  Arbore_AVL.vcxproj -> E:\Facultate\Anul II\SEM II\SDD\Recapitulare\Arbore_AVL\x64\Debug\Arbore_AVL.exe
