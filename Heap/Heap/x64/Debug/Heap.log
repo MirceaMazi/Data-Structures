@@ -1,0 +1,4 @@
+﻿  Heap.c
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\Heap\Heap\Heap.c(20,39): warning C4013: 'strlen' undefined; assuming extern returning int
+E:\Facultate\Anul II\SEM II\SDD\Recapitulare\Heap\Heap\Heap.c(21,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+  Heap.vcxproj -> E:\Facultate\Anul II\SEM II\SDD\Recapitulare\Heap\x64\Debug\Heap.exe
